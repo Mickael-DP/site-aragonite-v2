@@ -1,0 +1,568 @@
+{
+	"cat_01": {
+		"left": [
+			{
+				"name": "Salades",
+				"products": [
+					{
+						"name": "Salade César",
+						"price": "17€",
+						"ingredients": [
+							"Salade",
+							"tomate cerise",
+							"poulet crousstillant",
+							"copeaux de parmesan",
+							"oeuf",
+							"croutons",
+							"sauce César"
+						]
+					},
+					{
+						"name": "Poke Bowl",
+						"price": "19,50€",
+						"ingredients": [
+							"Riz vinaigré",
+							"choux rouge",
+							"fève",
+							"edamame",
+							"Avocat",
+							"julienne de légumes",
+							"poulet crousstillant",
+							"sauce asiatique"
+						]
+					},
+					{
+						"name": "Poke Bowl Végétarien",
+						"price": "18,50€",
+						"ingredients": [
+							"Riz vinaigré",
+							"choux rouge",
+							"fève",
+							"edamame",
+							"julienne de légumes",
+							"sauce asiatique"
+						]
+					}
+				]
+			},
+			{
+				"name": "Burgers",
+				"products": [
+					{
+						"name": "Chicken Burger",
+						"price": "18,50€",
+						"ingredients": [
+							"Poulet crousstillant",
+							"salade",
+							"tomate",
+							"oignons",
+							"cheddar",
+							"sauce biggy frites"
+						]
+					},
+					{
+						"name": "Buggy Burger",
+						"price": "18,50€",
+						"ingredients": [
+							"Steak haché boucher 150g",
+							"salade",
+							"tomate",
+							"oignons",
+							"cheddar",
+							"sauce biggy frites"
+						]
+					},
+					{
+						"name": "Veggie Burger",
+						"price": "18,50€",
+						"ingredients": [
+							"Steak végétal",
+							"salade",
+							"tomate",
+							"oignons",
+							"cheddar",
+							"sauce biggy frites"
+						]
+					}
+				]
+			},
+			{
+				"name": "Formules Midi",
+				"products": [
+					{
+						"name": "Plat du jour (hors week-end)",
+						"price": "15,00€",
+						"ingredients": []
+					},
+					{
+						"name": "Plat du jour + Dessert",
+						"price": "18,00€",
+						"ingredients": []
+					}
+				]
+			}
+		],
+		"right": [
+			{
+				"name": "Tartares",
+				"products": [
+					{
+						"name": "Tartare de boeuf Traditionnel",
+						"price": "18,50€",
+						"ingredients": [
+							"Viande hachée 180g",
+							"sauce a la base de conditionnement maison",
+							"frite",
+							"salade"
+						]
+					},
+					{
+						"name": "Tartare Italien",
+						"price": "19,50€",
+						"ingredients": [
+							"Viande hachée 180g",
+							"parmesan",
+							"jambon cru",
+							"mozzarella",
+							"pesto",
+							"tomates séchées",
+							"pignons",
+							"frite",
+							"salade"
+						]
+					}
+				]
+			},
+			{
+				"name": "Viandes",
+				"products": [
+					{
+						"name": "Pièce du Boucher",
+						"price": "23,50€",
+						"ingredients": ["Sélection du boucher (-200g)", "frite", "salade"]
+					},
+					{
+						"name": "Carpaccio de Boeuf",
+						"price": "22,50€",
+						"ingredients": [
+							"Viande de boeuf",
+							"oignons",
+							"copeaux de parmesan",
+							"champignons",
+							"capres",
+							"frite",
+							"salade"
+						]
+					}
+				]
+			},
+			{
+				"name": "Pâtes",
+				"products": [
+					{
+						"name": "Linguines Carbonara",
+						"price": "16€",
+						"ingredients": ["Creme fraiche", "lardons"]
+					},
+					{
+						"name": "Gnocchi à la crème de parmesan ",
+						"price": "17€",
+						"ingredients": []
+					},
+					{
+						"name": "Ravioli au boeuf à la Napolitaine",
+						"price": "17€",
+						"ingredients": ["Sauce tomate maison"]
+					}
+				]
+			},
+			{
+				"name": "Menu Enfant",
+				"products": [
+					{
+						"name": "Cheese burger OU Pâte à la napolitaine OU Tenders/frites + 1 dessert au choix ET 1 sirop a l'eau",
+						"price": "12,90€",
+						"ingredients": []
+					}
+				]
+			}
+		]
+	},
+	"cat_02": {
+		"left": [
+			{
+				"name": "Desserts",
+				"products": [
+					{
+						"name": "Tiramisu",
+						"price": "8€",
+						"ingredients": []
+					},
+					{
+						"name": "Salade de fruit frais",
+						"price": "8€",
+						"ingredients": []
+					},
+					{
+						"name": "Brownie Maison",
+						"price": "8€",
+						"ingredients": []
+					},
+					{
+						"name": "Café gourmand",
+						"price": "10€",
+						"ingredients": []
+					},
+					{
+						"name": "Mousse au chocolat",
+						"price": "8€",
+						"ingredients": []
+					}
+				]
+			},
+			{
+				"name": "Boule de Glace",
+				"products": [
+					{
+						"name": "1 boule de glace",
+						"price": "2.50€",
+						"ingredients": []
+					},
+					{
+						"name": "2 boules de glaces",
+						"price": "5€",
+						"ingredients": []
+					},
+					{
+						"name": "3 boules de glaces",
+						"price": "7.50€",
+						"ingredients": []
+					}
+				]
+			}
+		],
+		"right": [
+			{
+				"name": "Parfums Glaces",
+				"products": [
+					{
+						"name": "Vanille, chocolat, café, pistache, fraise, citron, caramel, cassis, noix de coco, rhum raison, menthe chocolat",
+						"price": "",
+						"ingredients": []
+					}
+				]
+			},
+			{
+				"name": "Goûter",
+				"products": [
+					{
+						"name": "Gaufre",
+						"price":"6,50€",
+						"ingredients": ["Pâtes a tartiner", "chantilly", "sucre glance"]
+					},
+					{
+						"name": "Donuts",
+						"price":"3,50€",
+						"ingredients": []
+					},
+					{
+						"name": "Muffins",
+						"price":"3,50€",
+						"ingredients": []
+					}
+				]
+			}
+		]
+	},
+	"cat_03": {
+		"left": [
+			{
+				"name": "Boissons",
+				"products": [
+					{
+						"name": "Coca-Cola / Zéro 33cl",
+						"price": "3.50€",
+						"ingredients": []
+					},
+					{
+						"name": "Orangina 33cl",
+						"price": "3.50€",
+						"ingredients": []
+					},
+					{
+						"name": "Perrier 33cl",
+						"price": "3.50€",
+						"ingredients": []
+					},
+					{
+						"name": "Limonade 33cl",
+						"price": "3.50€",
+						"ingredients": []
+					},
+					{
+						"name": "Fuze Tea 33cl",
+						"price": "3.50€",
+						"ingredients": []
+					},
+					{
+						"name": "Jus de fruits 20cl",
+						"price": "3.50€",
+						"ingredients": [
+							"Multifruit",
+							"Pêche",
+							"Ananas",
+							"Poire",
+							"Pêche",
+							"Tomate",
+							"Mangue",
+							"Orange"
+						]
+					},
+					{
+						"name": "Oasis 33cl",
+						"price": "3.50€",
+						"ingredients": []
+					},
+					{
+						"name": "Cristaline 33cl",
+						"price": "3€",
+						"ingredients": []
+					},
+					{
+						"name": "Sirop à l'eau",
+						"price": "2.50€",
+						"ingredients": []
+					},
+					{
+						"name": "Supp Sirop",
+						"price": "0.50€",
+						"ingredients": []
+					},
+					{
+						"name": "Evian 50cl / 1L",
+						"price": "3€/5€",
+						"ingredients": []
+					},
+					{
+						"name": "San Pellegrino 50cl / 1L",
+						"price": "3.50€/6€",
+						"ingredients": []
+					}
+				]
+			},
+			{
+				"name": "Bières",
+				"products": [
+					{
+						"name": "Heineken 25cl",
+						"price": "4€",
+						"ingredients": []
+					},
+					{
+						"name": "Desperados",
+						"price": "4€",
+						"ingredients": []
+					},
+					{
+						"name": "Heineken Sans Alcool 33cl",
+						"price": "4€",
+						"ingredients": []
+					}
+				]
+			}
+		],
+		"right": [
+			{
+				"name": "Boissons Chaudes",
+				"products": [
+					{
+						"name": "Café",
+						"price": "1.70€",
+						"ingredients": []
+					},
+					{
+						"name": "Décaféiné",
+						"price": "1.70€",
+						"ingredients": []
+					},
+					{
+						"name": "Noisette",
+						"price": "1.90€",
+						"ingredients": []
+					},
+					{
+						"name": "Double Expresso",
+						"price": "3.40€",
+						"ingredients": []
+					},
+					{
+						"name": "Grand Crème",
+						"price": "3.50€",
+						"ingredients": []
+					},
+					{
+						"name": "Cappuccino",
+						"price": "3.60€",
+						"ingredients": []
+					},
+					{
+						"name": "Chocolat Chaud",
+						"price": "3€",
+						"ingredients": []
+					}
+				]
+			}
+		]
+	},
+	"cat_04": {
+		"left": [
+			{
+				"name": "Alcools",
+				"products": [
+					{
+						"name": "Pastis 51/Ricard 2cl",
+						"price": "3€",
+						"ingredients": []
+					},
+					{
+						"name": "Martini Blanc/Rouge 5cl",
+						"price": "4€",
+						"ingredients": []
+					},
+					{
+						"name": "Apérol Spritz 20cl",
+						"price": "10€",
+						"ingredients": []
+					},
+					{
+						"name": "Mojito 2Ocl",
+						"price": "10€",
+						"ingredients": []
+					},
+					{
+						"name": "Kir Cassis ou Pêche 8cl",
+						"price": "3.50€",
+						"ingredients": []
+					},
+					{
+						"name": "Gin 4cl",
+						"price": "7€",
+						"ingredients": []
+					},
+					{
+						"name": "Rhum 4cl",
+						"price": "7€",
+						"ingredients": []
+					},
+					{
+						"name": "Vodka 4cl",
+						"price": "7€",
+						"ingredients": []
+					},
+					{
+						"name": "J&b 4cl",
+						"price": "7€",
+						"ingredients": []
+					},
+					{
+						"name": "Jack daniels 4cl",
+						"price": "8€",
+						"ingredients": []
+					}
+				]
+			},
+			{
+				"name": "Champagne & Mousseux",
+				"products": [
+					{
+						"name": "Champagne Louis Constant 75cl",
+						"price": "60€",
+						"ingredients": []
+					},
+					{
+						"name": "Prosecco Sartori 75cl",
+						"price": "24€",
+						"ingredients": []
+					}
+				]
+			},
+			{
+				"name": "Carte des Vins",
+				"products": [
+					{
+						"name": "Chateau l'escarelle AOP bio 75cl",
+						"price": "25€",
+						"ingredients": ["Rouge", "Blanc", "Rosé"]
+					},
+					{
+						"name": "Loulou Charmeuse AOP Lubéron 75cl",
+						"price": "20€",
+						"ingredients": []
+					}
+				]
+			}
+		],
+		"right": [
+			{
+				"name": "Digestifs",
+				"products": [
+					{
+						"name": "Cognac 4cl",
+						"price": "8€",
+						"ingredients": []
+					},
+					{
+						"name": "Get 27 4cl",
+						"price": "8€",
+						"ingredients": []
+					},
+					{
+						"name": "Limoncello 4cl",
+						"price": "5€",
+						"ingredients": []
+					},
+					{
+						"name": "Amaretto 4cl",
+						"price": "8€",
+						"ingredients": []
+					},
+					{
+						"name": "Grappa 4cl",
+						"price": "8€",
+						"ingredients": []
+					},
+					{
+						"name": "Manzana 4cl",
+						"price": "8€",
+						"ingredients": []
+					},
+					{
+						"name": "Armagnac 4cl",
+						"price": "8€",
+						"ingredients": []
+					}
+				]
+			},
+			{
+				"name": "Pichet IGP",
+				"products": [
+					{
+						"name": "Rouge 25cl / 50cl",
+						"price": "4€/8€",
+						"ingredients": []
+					},
+					{
+						"name": "Blanc 25cl / 50cl",
+						"price": "4€/8€",
+						"ingredients": []
+					},
+					{
+						"name": "Rosé 25cl / 50cl",
+						"price": "4€/8€",
+						"ingredients": []
+					}
+				]
+			}
+		]
+	}
+}

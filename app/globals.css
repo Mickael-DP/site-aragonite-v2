@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F5F1E8;
+  /* Warm cream */
+  --foreground: #2C2416;
+  /* Dark brown text */
+  --terracotta: #993F1E;
+  /* Primary terracotta */
+  --terracotta-light: #B8563A;
+  --terracotta-dark: #7A3218;
+  --font-playfair: 'Playfair Display', serif;
+  --font-lato: 'Lato', sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  overflow-x: hidden;
+  font-family: var(--font-lato);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-playfair);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
