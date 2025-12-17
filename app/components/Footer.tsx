@@ -4,6 +4,9 @@ import { motion } from 'framer-motion';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 export default function Footer() {
+    const address = "1481 route des Grottes, 06530 Saint-Cézaire-sur-Siagne";
+    const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+
     return (
         <footer id="contact" className="bg-[#E8E2D5] text-[#2C2416] py-16 px-4 border-t-2 border-[#993F1E]/20">
             <div className="max-w-7xl mx-auto">
@@ -24,18 +27,25 @@ export default function Footer() {
                                 <Phone size={20} />
                                 <span>04 92 60 25 82</span>
                             </a>
-                            <div className="flex items-center gap-3">
+                            <a
+                                href="mailto:aragonite06530@gmail.com"
+                                className="flex items-center gap-3 hover:text-[#993F1E] transition-colors"
+                            >
                                 <Mail size={20} />
-                                <span>contact@aragonite-restaurant.fr</span>
-                            </div>
-                            <div className="flex items-start gap-3">
-                                <MapPin size={20} className="mt-1" />
+                                <span>aragonite06530@gmail.com</span>
+                            </a>
+                            <a
+                                href={googleMapsUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-start gap-3 hover:text-[#993F1E] transition-colors"
+                            >
+                                <MapPin size={20} className="mt-1 flex-shrink-0" />
                                 <span>
-                                    Parc de Loisirs<br />
-                                    Grotte de Baume Obscure<br />
-                                    83840 Saint-Vallier-de-Thiey
+                                    1481 route des Grottes <br />
+                                    06530 Saint-Cézaire-sur-Siagne
                                 </span>
-                            </div>
+                            </a>
                         </div>
                     </motion.div>
 
@@ -70,9 +80,7 @@ export default function Footer() {
                             L'Aragonite
                         </h3>
                         <p className="text-[#6B5D4F] leading-relaxed">
-                            Restaurant situé au cœur d'un parc boisé de 6 hectares, proposant
-                            une cuisine traditionnelle provençale avec des produits frais et
-                            de saison.
+                            Situé au cœur d'un parc boisé de 6 hectares, notre restaurant vous propose une cuisine provençale authentique dans un cadre paisible et naturel.
                         </p>
                     </motion.div>
                 </div>
