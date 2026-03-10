@@ -61,13 +61,12 @@ export default function Presentation() {
                         transition={{ duration: 0.8, delay: 0.4 }}
                         className="relative"
                     >
-                        <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-[#993F1E]/20">
+                        <div className="relative rounded-2xl overflow-hidden">
                             <img
-                                src="/images/restaurant-exterior.png"
+                                src="/images/restaurant-ext.webp"
                                 alt="Restaurant L'Aragonite - Extérieur"
                                 className="w-full h-[400px] object-cover"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent" />
                         </div>
                     </motion.div>
                 </div>

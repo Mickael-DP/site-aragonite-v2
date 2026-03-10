@@ -28,7 +28,7 @@ export default function MenuSection({ categories }: MenuSectionProps) {
         <section
             id="menu"
             ref={ref}
-            className="py-20 px-4 bg-slate-800"
+            className="py-20 px-4 bg-[#FBF9F4]"
         >
             <div className="max-w-7xl mx-auto">
                 <motion.div
@@ -50,7 +50,7 @@ export default function MenuSection({ categories }: MenuSectionProps) {
                             initial={{ opacity: 0, y: 50 }}
                             animate={isInView ? { opacity: 1, y: 0 } : {}}
                             transition={{ duration: 0.5, delay: categoryIndex * 0.1 }}
-                            className="bg-slate-900/50 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 hover:border-[#993F1E]/50 transition-all duration-300 hover:shadow-lg hover:shadow-[#993F1E]/20"
+                            className="bg-white rounded-2xl p-6 border border-[#993F1E]/10 hover:border-[#993F1E]/30 transition-all duration-300 hover:shadow-lg hover:shadow-[#993F1E]/5"
                         >
                             <div className="flex items-center gap-3 mb-6">
                                 <div className="p-2 bg-[#993F1E] rounded-lg">
@@ -65,10 +65,10 @@ export default function MenuSection({ categories }: MenuSectionProps) {
                                 {category.products.map((product, productIndex) => (
                                     <div
                                         key={productIndex}
-                                        className="border-b border-slate-700/50 pb-4 last:border-0"
+                                        className="border-b border-[#993F1E]/10 pb-4 last:border-0"
                                     >
                                         <div className="flex justify-between items-start mb-2">
-                                            <h4 className="text-slate-200 font-semibold flex-1">
+                                            <h4 className="text-[#2C2416] font-semibold flex-1">
                                                 {product.name}
                                             </h4>
                                             {product.price && (
@@ -78,7 +78,7 @@ export default function MenuSection({ categories }: MenuSectionProps) {
                                             )}
                                         </div>
                                         {product.ingredients.length > 0 && (
-                                            <p className="text-sm text-slate-400">
+                                            <p className="text-sm text-[#6B5D4F]">
                                                 {product.ingredients.join(', ')}
                                             </p>
                                         )}
