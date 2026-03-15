@@ -91,12 +91,17 @@
 				"products": [
 					{
 						"name": "Plat du jour (hors week-end)",
-						"price": "15,00€",
+						"price": "16,00€",
 						"ingredients": []
 					},
 					{
 						"name": "Plat du jour + Dessert",
 						"price": "18,00€",
+						"ingredients": []
+					},
+					{
+						"name": "Plat du jour + Café gourmand",
+						"price": "19,80€",
 						"ingredients": []
 					}
 				]
@@ -139,7 +144,11 @@
 					{
 						"name": "Pièce du Boucher",
 						"price": "23,50€",
-						"ingredients": ["Sélection du boucher (-200g)", "frite", "salade"]
+						"ingredients": [
+							"Sélection du boucher (-200g)",
+							"frite",
+							"salade"
+						]
 					},
 					{
 						"name": "Carpaccio de Boeuf",
@@ -162,7 +171,10 @@
 					{
 						"name": "Linguines Carbonara",
 						"price": "16€",
-						"ingredients": ["Creme fraiche", "lardons"]
+						"ingredients": [
+							"Creme fraiche",
+							"lardons"
+						]
 					},
 					{
 						"name": "Gnocchi à la crème de parmesan ",
@@ -172,7 +184,9 @@
 					{
 						"name": "Ravioli au boeuf à la Napolitaine",
 						"price": "17€",
-						"ingredients": ["Sauce tomate maison"]
+						"ingredients": [
+							"Sauce tomate maison"
+						]
 					}
 				]
 			},
@@ -257,17 +271,21 @@
 				"products": [
 					{
 						"name": "Gaufre",
-						"price":"6,50€",
-						"ingredients": ["Pâtes a tartiner", "chantilly", "sucre glance"]
+						"price": "6,50€",
+						"ingredients": [
+							"Pâtes a tartiner",
+							"chantilly",
+							"sucre glance"
+						]
 					},
 					{
 						"name": "Donuts",
-						"price":"3,50€",
+						"price": "3,50€",
 						"ingredients": []
 					},
 					{
 						"name": "Muffins",
-						"price":"3,50€",
+						"price": "3,50€",
 						"ingredients": []
 					}
 				]
@@ -492,7 +510,11 @@
 					{
 						"name": "Chateau l'escarelle AOP bio 75cl",
 						"price": "25€",
-						"ingredients": ["Rouge", "Blanc", "Rosé"]
+						"ingredients": [
+							"Rouge",
+							"Blanc",
+							"Rosé"
+						]
 					},
 					{
 						"name": "Loulou Charmeuse AOP Lubéron 75cl",

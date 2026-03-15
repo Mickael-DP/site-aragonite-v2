@@ -45,14 +45,33 @@ export default function SeasonalMenu() {
                         <h3 className="text-2xl font-bold text-[#993F1E] mb-4">
                             PLAT DU JOUR
                         </h3>
-                        <p className="text-3xl font-bold text-[#2C2416]">15,00€</p>
+                        <p className="text-3xl font-bold text-[#2C2416]">16,00€</p>
+                    </motion.div>
+
+                    {/* Plat du jour + Café gourmand */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={isInView ? { opacity: 1, y: 0 } : {}}
+                        transition={{ duration: 0.5, delay: 0.2 }}
+                        className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-[#993F1E]/20 hover:border-[#993F1E]/50 transition-all duration-300 text-center shadow-lg"
+                    >
+                        <div className="flex justify-center mb-4">
+                            <div className="p-3 bg-[#993F1E] rounded-full">
+                                <Utensils size={28} className="text-white" />
+                            </div>
+                        </div>
+                        <p className="text-[#6B5D4F] italic mb-3 text-sm">Tous les jours</p>
+                        <h3 className="text-2xl font-bold text-[#993F1E] mb-4">
+                            PLAT DU JOUR + CAFÉ GOURMAND
+                        </h3>
+                        <p className="text-3xl font-bold text-[#2C2416]">19,80€</p>
                     </motion.div>
 
                     {/* Spécial Couscous */}
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
                         animate={isInView ? { opacity: 1, y: 0 } : {}}
-                        transition={{ duration: 0.5, delay: 0.2 }}
+                        transition={{ duration: 0.5, delay: 0.3 }}
                         className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-[#993F1E]/20 hover:border-[#993F1E]/50 transition-all duration-300 text-center shadow-lg"
                     >
                         <div className="flex justify-center mb-4">
@@ -67,24 +86,6 @@ export default function SeasonalMenu() {
                         <p className="text-3xl font-bold text-[#2C2416]">15,00€</p>
                     </motion.div>
 
-                    {/* Spécial Aïoli */}
-                    <motion.div
-                        initial={{ opacity: 0, y: 50 }}
-                        animate={isInView ? { opacity: 1, y: 0 } : {}}
-                        transition={{ duration: 0.5, delay: 0.3 }}
-                        className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-[#993F1E]/20 hover:border-[#993F1E]/50 transition-all duration-300 text-center shadow-lg"
-                    >
-                        <div className="flex justify-center mb-4">
-                            <div className="p-3 bg-[#993F1E] rounded-full">
-                                <Calendar size={28} className="text-white" />
-                            </div>
-                        </div>
-                        <p className="text-[#6B5D4F] italic mb-3 text-sm">Tous les vendredis</p>
-                        <h3 className="text-2xl font-bold text-[#993F1E] mb-4">
-                            SPECIAL AÏOLI
-                        </h3>
-                        <p className="text-3xl font-bold text-[#2C2416]">15,00€</p>
-                    </motion.div>
                 </div>
 
                 <motion.p
