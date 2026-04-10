@@ -9,6 +9,7 @@ export default function SeasonalMenu() {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, margin: '-100px' });
 
+
     return (
         <section
             id="menu-saison"
@@ -27,8 +28,7 @@ export default function SeasonalMenu() {
                     </h2>
                     <div className="w-32 h-1 bg-[#993F1E] rounded-full mx-auto" />
                 </motion.div>
-
-                <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12">
+                <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-12">
                     {/* Plat du jour */}
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
@@ -60,35 +60,19 @@ export default function SeasonalMenu() {
                                 <Utensils size={28} className="text-white" />
                             </div>
                         </div>
-                        <p className="text-[#6B5D4F] italic mb-3 text-sm">Tous les jours</p>
+                        <p className="text-[#6B5D4F] italic mb-3 text-sm">Sauf dimanche et jour fériés</p>
                         <h3 className="text-2xl font-bold text-[#993F1E] mb-4">
-                            PLAT DU JOUR + CAFÉ GOURMAND
+                       FORMULE DEJEUNER
                         </h3>
+                        <p className="text-[#6B5D4F]  mb-3 text-sm">Plat du jour + café gourmand</p>
                         <p className="text-3xl font-bold text-[#2C2416]">19,80€</p>
                     </motion.div>
 
-                    {/* Spécial Couscous */}
-                    <motion.div
-                        initial={{ opacity: 0, y: 50 }}
-                        animate={isInView ? { opacity: 1, y: 0 } : {}}
-                        transition={{ duration: 0.5, delay: 0.3 }}
-                        className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-[#993F1E]/20 hover:border-[#993F1E]/50 transition-all duration-300 text-center shadow-lg"
-                    >
-                        <div className="flex justify-center mb-4">
-                            <div className="p-3 bg-[#993F1E] rounded-full">
-                                <Calendar size={28} className="text-white" />
-                            </div>
-                        </div>
-                        <p className="text-[#6B5D4F] italic mb-3 text-sm">Tous les jeudis</p>
-                        <h3 className="text-2xl font-bold text-[#993F1E] mb-4">
-                            SPECIAL COUSCOUS
-                        </h3>
-                        <p className="text-3xl font-bold text-[#2C2416]">15,00€</p>
-                    </motion.div>
+                
 
                 </div>
 
-                <motion.p
+               {/*  <motion.p
                     initial={{ opacity: 0 }}
                     animate={isInView ? { opacity: 1 } : {}}
                     transition={{ duration: 0.8, delay: 0.4 }}
@@ -96,7 +80,7 @@ export default function SeasonalMenu() {
                 >
                     Une ardoise est également disponible tous les jours avec nos suggestions
                     du moment.
-                </motion.p>
+                </motion.p> */}
             </div>
         </section>
     );

@@ -23,7 +23,7 @@ export default function Navbar() {
     const navLinks = [
         { href: isHome ? '#presentation' : '/#presentation', label: 'Notre Restaurant' },
         { href: isHome ? '#menu-saison' : '/#menu-saison', label: 'Notre Menu' },
-        { href: isHome ? '#pizzas' : '/#pizzas', label: 'Nos Pizzas' },
+       /*  { href: isHome ? '#pizzas' : '/#pizzas', label: 'Nos Pizzas' }, */
     ];
 
     const socialLinks = [

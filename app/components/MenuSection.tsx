@@ -28,29 +28,28 @@ export default function MenuSection({ categories }: MenuSectionProps) {
         <section
             id="menu"
             ref={ref}
-            className="py-20 px-4 bg-[#FBF9F4]"
+            className="py-20 px-4 bg-[#FBF9F4] relative overflow-hidden"
         >
-            <div className="max-w-7xl mx-auto">
-                <motion.div
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={isInView ? { opacity: 1, y: 0 } : {}}
-                    transition={{ duration: 0.8 }}
-                    className="text-center mb-16"
-                >
-                    <h2 className="text-4xl md:text-5xl font-bold mb-4 text-[#993F1E]">
-                        Notre Menu
-                    </h2>
-                    <div className="w-32 h-1 bg-[#993F1E] rounded-full mx-auto" />
-                </motion.div>
+            {/* Background Image */}
+            <div className="absolute inset-0 opacity-10">
+                <img
+                    src="/images/menu-bg.png"
+                    alt="Menu Background"
+                    className="w-full h-full object-cover"
+                />
+            </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="max-w-7xl mx-auto relative z-10">
+            
+
+                <div className="columns-1 md:columns-2 lg:columns-3 gap-8">
                     {categories.map((category, categoryIndex) => (
                         <motion.div
                             key={category.name}
                             initial={{ opacity: 0, y: 50 }}
                             animate={isInView ? { opacity: 1, y: 0 } : {}}
                             transition={{ duration: 0.5, delay: categoryIndex * 0.1 }}
-                            className="bg-white rounded-2xl p-6 border border-[#993F1E]/10 hover:border-[#993F1E]/30 transition-all duration-300 hover:shadow-lg hover:shadow-[#993F1E]/5"
+                            className="break-inside-avoid mb-8 inline-block w-full bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-[#993F1E]/10 hover:border-[#993F1E]/30 transition-all duration-300 hover:shadow-lg hover:shadow-[#993F1E]/5"
                         >
                             <div className="flex items-center gap-3 mb-6">
                                 <div className="p-2 bg-[#993F1E] rounded-lg">
