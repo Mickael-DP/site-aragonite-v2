@@ -2,7 +2,7 @@
   "pizza": {
     "left": [
       {
-        "name": "MARGUERITE",
+        "name": "LA MARGUERITE",
         "ingrédients": [
           "Sauce tomate",
           "mozzarella",
@@ -12,11 +12,11 @@
         "prix": "12€"
       },
       {
-        "name": "REINE",
+        "name": "LA REINE",
         "ingrédients": [
           "Sauce tomate",
           "mozzarella",
-          "jambon",
+          "jambon blanc",
           "champignons",
           "olives",
           "origan"
@@ -24,7 +24,7 @@
         "prix": "14€"
       },
       {
-        "name": "4 FROMAGES",
+        "name": "LA 4 FROMAGES",
         "ingrédients": [
           "Sauce tomate",
           "mozzarella",
@@ -34,23 +34,21 @@
           "olives",
           "origan"
         ],
-        "prix": "14,50€"
+        "prix": "15,50€"
       },
       {
-        "name": "VÉGÉTARIENNE",
+        "name": "LA VÉGÉTARIENNE",
         "ingrédients": [
           "Sauce tomate",
           "mozzarella",
-          "poivrons",
-          "champignons",
-          "coeur d'artichaud",
+          "légumes marinés",
           "olives",
           "origan"
         ],
-        "prix": "15€"
+        "prix": "15,50€"
       },
       {
-        "name": "CANNIBALE",
+        "name": "LA CANNIBALE",
         "ingrédients": [
           "Sauce tomate",
           "mozzarella",
@@ -64,25 +62,25 @@
     ],
     "right": [
       {
-        "name": "CHORIZO",
+        "name": "LA CHORIZO",
         "ingrédients": [
-          "Crème fraiche",
+          "Sauce tomate",
           "mozzarella",
+          "champignons",
           "chorizo",
           "poivrons",
-          "champignons",
           "olives",
           "origan"
         ],
         "prix": "16€"
       },
       {
-        "name": "SICILIENNE",
+        "name": "LA SICILIENNE",
         "ingrédients": [
           "Sauce tomate",
           "mozzarella",
-          "capres",
-          "filet anchois",
+          "câpres",
+          "filet d'anchois",
           "olives",
           "origan"
         ],
@@ -91,9 +89,9 @@
       {
         "name": "LA TARTUFATA",
         "ingrédients": [
-          "Crème fraîche à la truffe",
+          "Crème à la truffe d'été",
           "mozzarella",
-          "champignons",
+          "parmesan",
           "olives",
           "origan"
         ],
@@ -104,7 +102,7 @@
         "ingrédients": [
           "Crème fraîche",
           "mozzarella",
-          "poulet mariné coriandre et satay",
+          "poulet mariné à la crème de cacahuète et satay",
           "olives",
           "origan"
         ],
@@ -115,11 +113,11 @@
         "ingrédients": [
           "Sauce tomate",
           "mozzarella",
-          "tomate fraiche",
-          "roquette",
+          "tomate fraîche",
           "pesto",
           "jambon cru",
           "piment frais",
+          "roquette",
           "olives",
           "origan"
         ],

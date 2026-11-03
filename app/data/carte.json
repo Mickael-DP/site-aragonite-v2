@@ -242,34 +242,17 @@
             {
               "name": "Salade César",
               "price": "18€",
-              "ingredients": [
-                "Iceberg",
-                "tomates cerises",
-                "œuf dur",
-                "poulet crispy",
-                "oignons frits",
-                "copeaux de grana padano",
-                "croûtons",
-                "sauce césar"
-              ]
+              "ingredients": []
             },
             {
               "name": "Œufs pochés à la crème de parmesan",
-              "price": "18€",
+              "price": "16€",
               "ingredients": []
             },
             {
               "name": "Burger Chicken",
               "price": "19,50€",
-              "ingredients": [
-                "Pain multigrain",
-                "poulet crispy",
-                "sauce biggy",
-                "salade",
-                "tomates",
-                "oignons",
-                "cheddar rouge"
-              ]
+              "ingredients": []
             },
             {
               "name": "Burger Savoyard",
@@ -289,28 +272,15 @@
             {
               "name": "Pièce du Boucher",
               "price": "24,50€",
-              "ingredients": [
-                "Viande du moment (~200g)",
-                "frites",
-                "salade"
-              ]
+              "ingredients": []
             },
             {
               "name": "Tartare italien",
               "price": "20,50€",
-              "ingredients": [
-                "Viande de bœuf haché 180g",
-                "pesto maison",
-                "jambon cru",
-                "tomates séchées",
-                "mozzarella",
-                "copeaux de grana padano",
-                "olives noires",
-                "pignons de pin"
-              ]
+              "ingredients": []
             }
           ],
-          "note": "Supplément sauce Roquefort ou poivre : 3€"
+          "note": "Supplément sauce Roquefort et poivre : 3€"
         }
       ],
       "mise_en_avant": [

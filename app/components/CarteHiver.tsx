@@ -40,13 +40,13 @@ interface CarteHiverProps {
 const titleCase = (text: string) =>
     text.toLowerCase().replace(/(^|[\s'])([a-zà-ÿ])/g, (_, sep, letter) => sep + letter.toUpperCase());
 
-function MenuLine({ name, price, ingredients }: Item) {
+function MenuLine({ name, price, ingredients, roomy }: Item & { roomy?: boolean }) {
     return (
-        <div className="py-3.5">
+        <div className={roomy ? 'py-5' : 'py-3.5'}>
             <div className="flex items-baseline gap-3">
-                <h4 className="text-[#2C2416] font-semibold text-lg">{name}</h4>
+                <h4 className={`text-[#2C2416] font-semibold ${roomy ? 'text-xl' : 'text-lg'}`}>{name}</h4>
                 <span className="flex-1 border-b border-dotted border-[#993F1E]/40 translate-y-[-4px]" />
-                <span className="text-[#993F1E] font-bold whitespace-nowrap">{price}</span>
+                <span className={`text-[#993F1E] font-bold whitespace-nowrap ${roomy ? 'text-lg' : ''}`}>{price}</span>
             </div>
             {ingredients.length > 0 && (
                 <p className="text-sm text-[#6B5D4F] mt-1 pr-12 leading-relaxed">
@@ -146,7 +146,7 @@ export default function CarteHiver({ titre, label, miseEnAvant, ardoise, pizzas 
                         inView={isInView}
                     >
                         {ardoise.products.map((plat) => (
-                            <MenuLine key={plat.name} {...plat} />
+                            <MenuLine key={plat.name} {...plat} roomy />
                         ))}
                     </Column>
 
