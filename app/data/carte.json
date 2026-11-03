@@ -1,219 +1,333 @@
 {
-	"laCarte": {
-		   "categories":
-[
-  {
-    "name": "Salades",
-    "products": [
-      {
-        "name": "César",
-        "price": "18€",
-        "ingredients": [
-          "Iceberg",
-          "tomates cerises",
-          "œuf dur",
-          "poulet crispy",
-          "oignons frits",
-          "copeaux de grana padano",
-          "croûtons",
-          "sauce césar"
-        ]
-      },
-      {
-        "name": "Salade du \"Chef\"",
-        "price": "20€",
-        "ingredients": [
-          "Selon le marché"
-        ]
-      },
-      {
-        "name": "Poke Bowl Végétarien",
-        "price": "19,50€",
-        "ingredients": [
-          "Riz vinaigré",
-          "avocat",
-          "julienne de légumes",
-          "fève edamame",
-          "chou rouge",
-          "tomates cerises",
-          "concombre",
-          "sauce asiatique",
-          "sésames grillés"
-        ]
-      },
-      {
-        "name": "Poke Bowl Poulet",
-        "price": "20,50€",
-        "ingredients": [
-          "Riz vinaigré",
-          "avocat",
-          "julienne de légumes",
-          "fève edamame",
-          "chou rouge",
-          "poulet crispy",
-          "sauce asiatique",
-          "sésames grillés"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Viandes & Tartares",
-    "products": [
-      {
-        "name": "Tartare Traditionnel",
-        "price": "19,50€",
-        "ingredients": [
-          "Viande de bœuf haché 180g",
-          "ketchup",
-          "moutarde",
-          "oignons",
-          "câpres",
-          "cornichons",
-          "tabasco",
-          "sauce worcestershire"
-        ]
-      },
-      {
-        "name": "Tartare Italien",
-        "price": "20,50€",
-        "ingredients": [
-          "Viande de bœuf haché 180g",
-          "pesto maison",
-          "jambon cru",
-          "tomates séchées",
-          "mozzarella",
-          "copeaux de grana padano",
-          "olives noires",
-          "pignons de pin"
-        ]
-      },
-      {
-        "name": "Pièce du Boucher",
-        "price": "24,50€",
-        "ingredients": [
-          "Viande du moment (~200g)",
-          "frites",
-          "salade"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Burgers",
-    "products": [
-      {
-        "name": "Biggy Burger",
-        "price": "19,50€",
-        "ingredients": [
-          "Pain multigrain",
-          "steak du boucher 150g",
-          "sauce biggy",
-          "salade",
-          "tomates",
-          "oignons",
-          "cheddar rouge"
-        ]
-      },
-      {
-        "name": "Chicken Burger",
-        "price": "19,50€",
-        "ingredients": [
-          "Pain multigrain",
-          "poulet crispy",
-          "sauce biggy",
-          "salade",
-          "tomates",
-          "oignons",
-          "cheddar rouge"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Pâtes",
-    "products": [
-      {
-        "name": "Linguine Carbonara",
-        "price": "17,50€",
-        "ingredients": [
-          "Linguine",
-          "crème fraîche",
-          "grana padano",
-          "lardons fumés"
-        ]
-      },
-      {
-        "name": "Linguine à la Napolitaine",
-        "price": "16,50€",
-        "ingredients": [
-          "Linguine",
-          "sauce tomate maison",
-          "ail",
-          "oignons",
-          "basilic",
-          "huile d'olive"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Desserts",
-    "products": [
-      {
-        "name": "Mousse au chocolat noir",
-        "price": "8€",
-        "ingredients": []
-      },
-      {
-        "name": "Crème brûlée",
-        "price": "8€",
-        "ingredients": []
-      },
-      {
-        "name": "Salade de fruits frais",
-        "price": "8€",
-        "ingredients": []
-      },
-      {
-        "name": "Dessert du moment",
-        "price": "8€",
-        "ingredients": []
-      },
-      {
-        "name": "Île flottante",
-        "price": "8€",
-        "ingredients": [
-          "vanille",
-          "caramel"
-        ]
-      },
-      {
-        "name": "Digestif gourmand",
-        "price": "14€",
-        "ingredients": []
-      },
-      {
-        "name": "Café gourmand",
-        "price": "10€",
-        "ingredients": []
-      }
-    ]
-  },
-    {
-    "name": "Formules",
-    "products": [
-      {
-        "name": "Formule enfant",
-        "price": "12,90€",
-        "ingredients": [
-          "Tenders frites ou cheeseburger frites ou pâtes sauce tomate",
-          "1 dessert",
-          "1 sirop à l’eau 20cl"
-        ]
-      }
-    ]
+  "saisonActive": "hiver",
+  "saisons": {
+    "ete": {
+      "label": "Carte d'été",
+      "categories": [
+        {
+          "name": "Salades",
+          "products": [
+            {
+              "name": "César",
+              "price": "18€",
+              "ingredients": [
+                "Iceberg",
+                "tomates cerises",
+                "œuf dur",
+                "poulet crispy",
+                "oignons frits",
+                "copeaux de grana padano",
+                "croûtons",
+                "sauce césar"
+              ]
+            },
+            {
+              "name": "Salade du \"Chef\"",
+              "price": "20€",
+              "ingredients": [
+                "Selon le marché"
+              ]
+            },
+            {
+              "name": "Poke Bowl Végétarien",
+              "price": "19,50€",
+              "ingredients": [
+                "Riz vinaigré",
+                "avocat",
+                "julienne de légumes",
+                "fève edamame",
+                "chou rouge",
+                "tomates cerises",
+                "concombre",
+                "sauce asiatique",
+                "sésames grillés"
+              ]
+            },
+            {
+              "name": "Poke Bowl Poulet",
+              "price": "20,50€",
+              "ingredients": [
+                "Riz vinaigré",
+                "avocat",
+                "julienne de légumes",
+                "fève edamame",
+                "chou rouge",
+                "poulet crispy",
+                "sauce asiatique",
+                "sésames grillés"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Viandes & Tartares",
+          "products": [
+            {
+              "name": "Tartare Traditionnel",
+              "price": "19,50€",
+              "ingredients": [
+                "Viande de bœuf haché 180g",
+                "ketchup",
+                "moutarde",
+                "oignons",
+                "câpres",
+                "cornichons",
+                "tabasco",
+                "sauce worcestershire"
+              ]
+            },
+            {
+              "name": "Tartare Italien",
+              "price": "20,50€",
+              "ingredients": [
+                "Viande de bœuf haché 180g",
+                "pesto maison",
+                "jambon cru",
+                "tomates séchées",
+                "mozzarella",
+                "copeaux de grana padano",
+                "olives noires",
+                "pignons de pin"
+              ]
+            },
+            {
+              "name": "Pièce du Boucher",
+              "price": "24,50€",
+              "ingredients": [
+                "Viande du moment (~200g)",
+                "frites",
+                "salade"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Burgers",
+          "products": [
+            {
+              "name": "Biggy Burger",
+              "price": "19,50€",
+              "ingredients": [
+                "Pain multigrain",
+                "steak du boucher 150g",
+                "sauce biggy",
+                "salade",
+                "tomates",
+                "oignons",
+                "cheddar rouge"
+              ]
+            },
+            {
+              "name": "Chicken Burger",
+              "price": "19,50€",
+              "ingredients": [
+                "Pain multigrain",
+                "poulet crispy",
+                "sauce biggy",
+                "salade",
+                "tomates",
+                "oignons",
+                "cheddar rouge"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pâtes",
+          "products": [
+            {
+              "name": "Linguine Carbonara",
+              "price": "17,50€",
+              "ingredients": [
+                "Linguine",
+                "crème fraîche",
+                "grana padano",
+                "lardons fumés"
+              ]
+            },
+            {
+              "name": "Linguine à la Napolitaine",
+              "price": "16,50€",
+              "ingredients": [
+                "Linguine",
+                "sauce tomate maison",
+                "ail",
+                "oignons",
+                "basilic",
+                "huile d'olive"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Desserts",
+          "products": [
+            {
+              "name": "Mousse au chocolat noir",
+              "price": "8€",
+              "ingredients": []
+            },
+            {
+              "name": "Crème brûlée",
+              "price": "8€",
+              "ingredients": []
+            },
+            {
+              "name": "Salade de fruits frais",
+              "price": "8€",
+              "ingredients": []
+            },
+            {
+              "name": "Dessert du moment",
+              "price": "8€",
+              "ingredients": []
+            },
+            {
+              "name": "Île flottante",
+              "price": "8€",
+              "ingredients": [
+                "vanille",
+                "caramel"
+              ]
+            },
+            {
+              "name": "Digestif gourmand",
+              "price": "14€",
+              "ingredients": []
+            },
+            {
+              "name": "Café gourmand",
+              "price": "10€",
+              "ingredients": []
+            }
+          ]
+        },
+        {
+          "name": "Formules",
+          "products": [
+            {
+              "name": "Formule enfant",
+              "price": "12,90€",
+              "ingredients": [
+                "Tenders frites ou cheeseburger frites ou pâtes sauce tomate",
+                "1 dessert",
+                "1 sirop à l’eau 20cl"
+              ]
+            }
+          ]
+        }
+      ],
+      "mise_en_avant": [
+        {
+          "sousTitre": "Tous les jours",
+          "titre": "PLAT DU JOUR",
+          "detail": "",
+          "prix": "16,00€"
+        },
+        {
+          "sousTitre": "Sauf dimanche et jour fériés",
+          "titre": "FORMULE DEJEUNER",
+          "detail": "Plat du jour + café gourmand",
+          "prix": "19,80€"
+        }
+      ],
+      "titre_mise_en_avant": "Notre Menu"
+    },
+    "hiver": {
+      "label": "Notre Carte",
+      "categories": [
+        {
+          "name": "Ardoise d'hiver",
+          "products": [
+            {
+              "name": "Salade César",
+              "price": "18€",
+              "ingredients": [
+                "Iceberg",
+                "tomates cerises",
+                "œuf dur",
+                "poulet crispy",
+                "oignons frits",
+                "copeaux de grana padano",
+                "croûtons",
+                "sauce césar"
+              ]
+            },
+            {
+              "name": "Œufs pochés à la crème de parmesan",
+              "price": "18€",
+              "ingredients": []
+            },
+            {
+              "name": "Burger Chicken",
+              "price": "19,50€",
+              "ingredients": [
+                "Pain multigrain",
+                "poulet crispy",
+                "sauce biggy",
+                "salade",
+                "tomates",
+                "oignons",
+                "cheddar rouge"
+              ]
+            },
+            {
+              "name": "Burger Savoyard",
+              "price": "21€",
+              "ingredients": []
+            },
+            {
+              "name": "Crispy Fish",
+              "price": "20€",
+              "ingredients": []
+            },
+            {
+              "name": "Gnocchi à la truffe",
+              "price": "24€",
+              "ingredients": []
+            },
+            {
+              "name": "Pièce du Boucher",
+              "price": "24,50€",
+              "ingredients": [
+                "Viande du moment (~200g)",
+                "frites",
+                "salade"
+              ]
+            },
+            {
+              "name": "Tartare italien",
+              "price": "20,50€",
+              "ingredients": [
+                "Viande de bœuf haché 180g",
+                "pesto maison",
+                "jambon cru",
+                "tomates séchées",
+                "mozzarella",
+                "copeaux de grana padano",
+                "olives noires",
+                "pignons de pin"
+              ]
+            }
+          ],
+          "note": "Supplément sauce Roquefort ou poivre : 3€"
+        }
+      ],
+      "mise_en_avant": [
+        {
+          "sousTitre": "Tous les jeudis",
+          "titre": "COUSCOUS",
+          "detail": "",
+          "prix": "16€"
+        },
+        {
+          "sousTitre": "Tous les vendredis",
+          "titre": "AÏOLI",
+          "detail": "",
+          "prix": "16€"
+        }
+      ],
+      "titre_mise_en_avant": "Plats de la semaine"
+    }
   }
-]
-	}
 }

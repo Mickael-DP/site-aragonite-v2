@@ -5,6 +5,7 @@ import { Phone, Menu, X, Instagram, Facebook, MapPin } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 import Logo from './Logo';
+import carteData from '../data/carte.json';
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -23,7 +24,9 @@ export default function Navbar() {
     const navLinks = [
         { href: isHome ? '#presentation' : '/#presentation', label: 'Notre Restaurant' },
         { href: isHome ? '#menu-saison' : '/#menu-saison', label: 'Notre Menu' },
-       /*  { href: isHome ? '#pizzas' : '/#pizzas', label: 'Nos Pizzas' }, */
+        ...(carteData.saisonActive === 'hiver'
+            ? [{ href: isHome ? '#pizzas' : '/#pizzas', label: 'Nos Pizzas' }]
+            : []),
     ];
 
     const socialLinks = [

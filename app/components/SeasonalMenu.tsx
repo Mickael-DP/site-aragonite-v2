@@ -3,12 +3,14 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { Utensils, Calendar } from 'lucide-react';
+import { Utensils } from 'lucide-react';
+import carteData from '../data/carte.json';
 
 export default function SeasonalMenu() {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, margin: '-100px' });
-
+    const saison = carteData.saisons[carteData.saisonActive as 'ete' | 'hiver'];
+    const cartes = saison.mise_en_avant;
 
     return (
         <section
@@ -24,52 +26,36 @@ export default function SeasonalMenu() {
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl md:text-5xl font-bold mb-4 text-[#993F1E]">
-                        Notre Menu
+                        {saison.titre_mise_en_avant}
                     </h2>
                     <div className="w-32 h-1 bg-[#993F1E] rounded-full mx-auto" />
                 </motion.div>
                 <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto mb-12">
-                    {/* Plat du jour */}
-                    <motion.div
-                        initial={{ opacity: 0, y: 50 }}
-                        animate={isInView ? { opacity: 1, y: 0 } : {}}
-                        transition={{ duration: 0.5, delay: 0.1 }}
-                        className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-[#993F1E]/20 hover:border-[#993F1E]/50 transition-all duration-300 text-center shadow-lg"
-                    >
-                        <div className="flex justify-center mb-4">
-                            <div className="p-3 bg-[#993F1E] rounded-full">
-                                <Utensils size={28} className="text-white" />
+                    {cartes.map((carte, index) => (
+                        <motion.div
+                            key={carte.titre}
+                            initial={{ opacity: 0, y: 50 }}
+                            animate={isInView ? { opacity: 1, y: 0 } : {}}
+                            transition={{ duration: 0.5, delay: 0.1 * (index + 1) }}
+                            className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-[#993F1E]/20 hover:border-[#993F1E]/50 transition-all duration-300 text-center shadow-lg"
+                        >
+                            <div className="flex justify-center mb-4">
+                                <div className="p-3 bg-[#993F1E] rounded-full">
+                                    <Utensils size={28} className="text-white" />
+                                </div>
                             </div>
-                        </div>
-                        <p className="text-[#6B5D4F] italic mb-3 text-sm">Tous les jours</p>
-                        <h3 className="text-2xl font-bold text-[#993F1E] mb-4">
-                            PLAT DU JOUR
-                        </h3>
-                        <p className="text-3xl font-bold text-[#2C2416]">16,00€</p>
-                    </motion.div>
-
-                    {/* Plat du jour + Café gourmand */}
-                    <motion.div
-                        initial={{ opacity: 0, y: 50 }}
-                        animate={isInView ? { opacity: 1, y: 0 } : {}}
-                        transition={{ duration: 0.5, delay: 0.2 }}
-                        className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 border-2 border-[#993F1E]/20 hover:border-[#993F1E]/50 transition-all duration-300 text-center shadow-lg"
-                    >
-                        <div className="flex justify-center mb-4">
-                            <div className="p-3 bg-[#993F1E] rounded-full">
-                                <Utensils size={28} className="text-white" />
-                            </div>
-                        </div>
-                        <p className="text-[#6B5D4F] italic mb-3 text-sm">Sauf dimanche et jour fériés</p>
-                        <h3 className="text-2xl font-bold text-[#993F1E] mb-4">
-                       FORMULE DEJEUNER
-                        </h3>
-                        <p className="text-[#6B5D4F]  mb-3 text-sm">Plat du jour + café gourmand</p>
-                        <p className="text-3xl font-bold text-[#2C2416]">19,80€</p>
-                    </motion.div>
-
-                
-
+                            <p className="text-[#6B5D4F] italic mb-3 text-sm">{carte.sousTitre}</p>
+                            <h3 className="text-2xl font-bold text-[#993F1E] mb-4">
+                                {carte.titre}
+                            </h3>
+                            {carte.detail && (
+                                <p className="text-[#6B5D4F] mb-3 text-sm">{carte.detail}</p>
+                            )}
+                            {carte.prix && (
+                                <p className="text-3xl font-bold text-[#2C2416]">{carte.prix}</p>
+                            )}
+                        </motion.div>
+                    ))}
                 </div>
 
                {/*  <motion.p

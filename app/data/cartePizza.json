@@ -1,126 +1,130 @@
 {
-	"pizza": {
-		"left": [
-			{
-				"name": "MARGUERITE",
-				"ingrédients": ["Sauce tomate", "mozzarella", "olives", "origan"],
-				"prix": "12€"
-			},
-			{
-				"name": "REINE",
-				"ingrédients": [
-					"Sauce tomate",
-					"mozzarella",
-					"jambon",
-					"champignons",
-					"olives",
-					"origan"
-				],
-				"prix": "13€"
-			},
-			{
-				"name": "NAPOLITAINE",
-				"ingrédients": [
-					"Sauce tomate",
-					"mozzarella",
-					"filet anchois",
-					"olives",
-					"origan"
-				],
-				"prix": "13,5€"
-			},
-			{
-				"name": "SICILIENNE",
-				"ingrédients": [
-					"Sauce tomate",
-					"mozzarella",
-					"capres",
-					"filet anchois",
-					"olives",
-					"origan"
-				],
-				"prix": "14€"
-			},
-			{
-				"name": "VEGETARIENNE",
-				"ingrédients": [
-					"Sauce tomate",
-					"mozzarella",
-					"poivrons",
-					"champignons",
-					"coeur d'artichaud",
-					"olives",
-					"origan"
-				],
-				"prix": "14€"
-			}
-		],
-		"right": [
-			{
-				"name": "4 FROMAGES",
-				"ingrédients": [
-					"Sauce tomate",
-					"mozzarella",
-					"chèvre",
-					"bleu",
-					"parmesan",
-					"olives",
-					"origan"
-				],
-				"prix": "15€"
-			},
-			{
-				"name": "CANNIBALE",
-				"ingrédients": [
-					"Sauce tomate",
-					"mozzarella",
-					"oignons",
-					"viande hachée",
-					"olives",
-					"origan"
-				],
-				"prix": "15.5€"
-			},
-			{
-				"name": "CHORIZO",
-				"ingrédients": [
-					"Crème fraiche",
-					"mozzarella",
-					"chorizo",
-					"poivrons",
-					"champignons",
-					"olives",
-					"origan"
-				],
-				"prix": "15.5€"
-			},
-			{
-				"name": "CALABRAISE",
-				"ingrédients": [
-					"Sauce tomate",
-					"mozzarella",
-					"saucisse",
-					"pesto N'duja",
-					"olives",
-					"origan"
-				],
-				"prix": "15.5€"
-			},
-			{
-				"name": "L'ARAGONITE",
-				"ingrédients": [
-					"Sauce tomate",
-					"mozzarella",
-					"tomate fraiche",
-					"roquette",
-					"pesto",
-					"jambon cru",
-					"piment frais",
-					"olives",
-					"origan"
-				],
-				"prix": "16.5€"
-			}
-		]
-	}
+  "pizza": {
+    "left": [
+      {
+        "name": "MARGUERITE",
+        "ingrédients": [
+          "Sauce tomate",
+          "mozzarella",
+          "olives",
+          "origan"
+        ],
+        "prix": "12€"
+      },
+      {
+        "name": "REINE",
+        "ingrédients": [
+          "Sauce tomate",
+          "mozzarella",
+          "jambon",
+          "champignons",
+          "olives",
+          "origan"
+        ],
+        "prix": "14€"
+      },
+      {
+        "name": "4 FROMAGES",
+        "ingrédients": [
+          "Sauce tomate",
+          "mozzarella",
+          "chèvre",
+          "bleu",
+          "parmesan",
+          "olives",
+          "origan"
+        ],
+        "prix": "14,50€"
+      },
+      {
+        "name": "VÉGÉTARIENNE",
+        "ingrédients": [
+          "Sauce tomate",
+          "mozzarella",
+          "poivrons",
+          "champignons",
+          "coeur d'artichaud",
+          "olives",
+          "origan"
+        ],
+        "prix": "15€"
+      },
+      {
+        "name": "CANNIBALE",
+        "ingrédients": [
+          "Sauce tomate",
+          "mozzarella",
+          "oignons",
+          "viande hachée",
+          "olives",
+          "origan"
+        ],
+        "prix": "16,50€"
+      }
+    ],
+    "right": [
+      {
+        "name": "CHORIZO",
+        "ingrédients": [
+          "Crème fraiche",
+          "mozzarella",
+          "chorizo",
+          "poivrons",
+          "champignons",
+          "olives",
+          "origan"
+        ],
+        "prix": "16€"
+      },
+      {
+        "name": "SICILIENNE",
+        "ingrédients": [
+          "Sauce tomate",
+          "mozzarella",
+          "capres",
+          "filet anchois",
+          "olives",
+          "origan"
+        ],
+        "prix": "14,50€"
+      },
+      {
+        "name": "LA TARTUFATA",
+        "ingrédients": [
+          "Crème fraîche à la truffe",
+          "mozzarella",
+          "champignons",
+          "olives",
+          "origan"
+        ],
+        "prix": "18€"
+      },
+      {
+        "name": "LA KING THAI",
+        "ingrédients": [
+          "Crème fraîche",
+          "mozzarella",
+          "poulet mariné coriandre et satay",
+          "olives",
+          "origan"
+        ],
+        "prix": "17,50€"
+      },
+      {
+        "name": "L'ARAGONITE",
+        "ingrédients": [
+          "Sauce tomate",
+          "mozzarella",
+          "tomate fraiche",
+          "roquette",
+          "pesto",
+          "jambon cru",
+          "piment frais",
+          "olives",
+          "origan"
+        ],
+        "prix": "17€"
+      }
+    ]
+  }
 }
